@@ -108,13 +108,14 @@ ol {
 }
 
 .order-title {
+  margin: 0 auto 48px;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
   max-width: 496px;
-  margin: 0 auto 48px;
+  
 }
 .order-button {
   font-family: inherit;
@@ -127,6 +128,7 @@ ol {
   cursor: pointer;
   display: block;
   margin: 0 auto;
+  padding:16px 32px;
 }
 .order-button:hover,
 .order-button:focus {
@@ -201,13 +203,20 @@ ol {
 }
 
 
-
 .section {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding: 120px 0;
+
+}
+.benefits-list{
+  display: flex;
+  gap: 24px;
+}
+.benefits-item{
+  width-max: calc( ( 100% - 72% ) / 4 );
 }
 .benefits-text {
-  max-width: 264px;
+  
+  width: 264px;
 }
 .team-wrapper {
   padding-top: 32px;
