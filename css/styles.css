@@ -26,7 +26,9 @@ ol {
   margin: 0;
   padding: 0;
 }
-
+img{
+  display:block;
+}
 /* common */
 .container {
   max-width: 1158px;
@@ -128,6 +130,10 @@ ol {
   display: block;
   margin: 0 auto;
   padding: 16px 32px;
+  border: none;
+  border-radius: 4px;
+  min-width: 169px;
+  height: 56px;
 }
 .order-button:hover,
 .order-button:focus {
@@ -179,10 +185,11 @@ ol {
 }
 .portfolio-item {
   width: calc((100% - 58px) / 3);
-  border: 1px solid #e7e9fc;
+  
 }
 .portfolio-wrapper {
-  padding: 32px 0 32px 16px;
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
 }
 .team-title,
 .portfolio-title {
