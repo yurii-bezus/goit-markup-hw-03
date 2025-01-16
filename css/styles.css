@@ -107,7 +107,6 @@ ol {
   padding-bottom: 188px;
 }
 
-
 .order-title {
   margin: 0 auto 48px;
   font-size: 56px;
@@ -157,7 +156,7 @@ ol {
 }
 
 .benefits-item {
-width: calc(( 100% - 72px ) / 4);
+  width: calc((100% - 72px) / 4);
 }
 
 .team-list {
@@ -166,7 +165,6 @@ width: calc(( 100% - 72px ) / 4);
 }
 
 .team-item {
-  
   width: calc((100% - 72px) / 4);
   border-radius: 0 0 4px 4px;
 }
@@ -174,13 +172,13 @@ width: calc(( 100% - 72px ) / 4);
   padding-top: 32px;
   padding-bottom: 32px;
 }
-.portfolio-list{
+.portfolio-list {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
 }
-.portfolio-item{
-  width: calc( ( 100% - 58px ) / 3 );
+.portfolio-item {
+  width: calc((100% - 58px) / 3);
   border: 1px solid #e7e9fc;
 }
 .portfolio-wrapper {
@@ -195,7 +193,6 @@ width: calc(( 100% - 72px ) / 4);
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
-  
 }
 
 .subtitles {
@@ -241,7 +238,3 @@ width: calc(( 100% - 72px ) / 4);
   color: #f4f4fd;
   max-width: 264px;
 }
-
-
-
-
