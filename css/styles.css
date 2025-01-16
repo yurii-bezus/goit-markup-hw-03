@@ -34,15 +34,15 @@ ol {
   margin: 0 auto;
 }
 /* header */
-.page-header{
+.page-header {
   border-bottom: 1px solid #e7e9fc;
 }
 
-.header-container{
+.header-container {
   display: flex;
   align-items: center;
 }
-.header-nav{
+.header-nav {
   display: flex;
   align-items: center;
 }
@@ -55,20 +55,20 @@ ol {
   text-transform: uppercase;
   color: #4d5ae5;
 }
-.header-logo{
+.header-logo {
   padding: 24px 0;
   margin-right: 76px;
 }
 .header-logo .logo-part {
   color: #2e2f42;
 }
-.nav-list{
+.nav-list {
   display: flex;
   align-items: center;
   gap: 40px;
 }
 .nav-link {
-  display:block;
+  display: block;
   padding: 24px 0;
   font-weight: 500;
   font-size: 16px;
@@ -81,7 +81,7 @@ ol {
   font-style: normal;
   margin-left: auto;
 }
-.contacts-list{
+.contacts-list {
   display: flex;
   align-items: center;
   gap: 40px;
@@ -107,6 +107,7 @@ ol {
   padding-bottom: 188px;
 }
 
+
 .order-title {
   margin: 0 auto 48px;
   font-size: 56px;
@@ -115,7 +116,6 @@ ol {
   text-align: center;
   color: #fff;
   max-width: 496px;
-  
 }
 .order-button {
   font-family: inherit;
@@ -128,12 +128,13 @@ ol {
   cursor: pointer;
   display: block;
   margin: 0 auto;
-  padding:16px 32px;
+  padding: 16px 32px;
 }
 .order-button:hover,
 .order-button:focus {
   background-color: #404bbf;
 }
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -146,24 +147,64 @@ ol {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
+.section {
+  padding: 120px 0;
+}
+.benefits-list {
+  display: flex;
+  gap: 24px;
+}
+
+.benefits-item {
+width: calc(( 100% - 72px ) / 4);
+}
+
+.team-list {
+  display: flex;
+  gap: 24px;
+}
+
+.team-item {
+  
+  width: calc((100% - 72px) / 4);
+  border-radius: 0 0 4px 4px;
+}
+.team-wrapper {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.portfolio-list{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.portfolio-item{
+  width: calc( ( 100% - 58px ) / 3 );
+  border: 1px solid #e7e9fc;
+}
+.portfolio-wrapper {
+  padding: 32px 0 32px 16px;
+}
 .team-title,
 .portfolio-title {
+  margin-bottom: 72px;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
-  margin-bottom: 72px;
+  
 }
 
 .subtitles {
+  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  margin-bottom: 8px;
 }
 .texts {
   font-size: 16px;
@@ -189,8 +230,8 @@ ol {
 .footer-logo .logo-part {
   color: #f4f4fd;
 }
-.footer-logo{
-  display: block;
+.footer-logo {
+  display: inline-block;
   margin-bottom: 16px;
 }
 .footer-text {
@@ -199,29 +240,8 @@ ol {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   max-width: 264px;
-  
 }
 
 
-.section {
-  padding: 120px 0;
 
-}
-.benefits-list{
-  display: flex;
-  gap: 24px;
-}
-.benefits-item{
-  width-max: calc( ( 100% - 72% ) / 4 );
-}
-.benefits-text {
-  
-  width: 264px;
-}
-.team-wrapper {
-  padding-top: 32px;
-  padding-bottom: 32px;
-}
-.portfolio-wrapper {
-  padding: 32px 226px 32px 16px;
-}
+
